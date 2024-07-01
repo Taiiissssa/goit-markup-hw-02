@@ -14,21 +14,24 @@ body {
     line-height: 24px;
     color: #434455;
     font-size: 16px;
+    background-color:#FFFFFF;
 }
 
 header {
     color: #E7E9FC;
 }
 
-.logo-web {
+header .logo-web {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo-studio {
+header .logo-studio {
     color: #2E2F42;
     ;
     font-family: 'Raleway', sans-serif;
@@ -36,7 +39,9 @@ header {
     font-weight: 700;
     text-transform: uppercase;
 }
-
+address{
+    font-style: normal;
+}
 .navigation .studio-link {
     color: #2E2F42;
     font-size: 16px;
@@ -132,6 +137,9 @@ header {
 .button:hover {
     background-color: #404BBF;
 }
+.button:focus{
+    background-color: #404BBF;
+}
 
 .title-second {
     font-size: 20px;
@@ -192,7 +200,7 @@ header {
 
 }
 
-footer {
+.footer-page {
     background-color: #2E2F42;
 }
 
