@@ -92,6 +92,10 @@ address{
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+.email-address:focus{
+    color: #404bbf;
+}
+
 
 .phone-number {
     color: #434455;
