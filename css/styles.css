@@ -170,6 +170,9 @@ address{
 .section-three {
     background-color: #F4F4FD;
 }
+.one-member{
+    background-color: #FFFFFF;
+}
 
 .introduction {
     text-transform: capitalize;
