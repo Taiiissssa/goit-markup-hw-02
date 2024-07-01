@@ -53,7 +53,9 @@ address{
 .navigation .studio-link:hover {
     color: #404BBF;
 }
-
+.navigation .studio-link:focus{
+    color:#404bbf;
+}
 .navigation .studio-link:active {
     color: #404BBF;
     text-decoration: underline;
